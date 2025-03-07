@@ -60,11 +60,11 @@
 </div>
 
 
-<div class="@container flex justify-center">
-    <div class="grid grid-cols-[330px] gap-10 @xl:grid-cols-[350px_350px] @3xl:grid-cols-[350px_350px_350px]">
+<div class="@container flex justify-center mt-20">
+    <div class="grid grid-cols-[330px] gap-10 @xl:grid-cols-[300px_300px] @4xl:grid-cols-[250px_250px_250px] @6xl:grid-cols-[350px_350px_350px]">
         {#each sermons as {timeOfReading, sermonPhoto, sermonTopic, description, dateOfPublish}}
            <div class="shadow-sm shadow-gray rounded-2xl px-2 py-5">
-                <div class="p-3 w-80 h-50 rounded-2xl bg-cover bg-center" style={`background-image: url(${sermonPhoto})`}>
+                <div class="p-3 w-70 h-50 rounded-2xl bg-cover bg-center @4xl:w-60 @6xl:w-80" style={`background-image: url(${sermonPhoto})`}>
                     <div class="bg-gray px-10 rounded-full py-1 w-fit"><Small text = {timeOfReading} /></div>
                 </div>
                 <Gray text = {dateOfPublish} />

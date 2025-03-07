@@ -4,9 +4,13 @@
 
 
 @theme {
-    /* fonts */
+    /* colors */
     --color-blue: #0C2BD7;
     --color-brown: #FD7747;
     --color-gray:  #7E868F;
     --color-darkBlue: #0A0933;
+
+    /* font */
+    --font-title: 'Lemon', system-ui;
+    --font-main: 'Roboto Variable', sans-serif;
 }
