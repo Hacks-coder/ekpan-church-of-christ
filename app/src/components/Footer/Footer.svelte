@@ -30,7 +30,7 @@
     ]
 </script>
 
-<footer class="grid bg-darkBlue p-2 gap-10 p-5 mt-40 text-white grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-3">
+<footer class="grid bg-darkBlue p-2 gap-10  mt-40 text-white grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-3 lg:p-10">
      {#each footerPath as {title, text}}
         <div>      
             <p class="text-purple font-bold font-title text-xl">{title}</p>
