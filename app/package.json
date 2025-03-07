@@ -50,6 +50,7 @@
 		]
 	},
 	"dependencies": {
-		"@fontsource-variable/roboto": "^5.2.5"
+		"@fontsource-variable/roboto": "^5.2.5",
+		"@fontsource/lemon": "^5.2.5"
 	}
 }

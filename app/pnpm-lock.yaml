@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/roboto':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource/lemon':
+        specifier: ^5.2.5
+        version: 5.2.5
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -497,6 +500,9 @@ packages:
 
   '@fontsource-variable/roboto@5.2.5':
     resolution: {integrity: sha512-csqBSOWXv0h5IbPhEqYJua6/nxl7dSNZbBOMeXSO9aqzgPw3GpfgC9kL5M6ULFLRaoDoBD4U9QctoDLKMaTyMg==}
+
+  '@fontsource/lemon@5.2.5':
+    resolution: {integrity: sha512-0Lb2gN2E9sUtx+jbiY15wnQ7aiFe4hw4DX2bwbpc4wfaEZnu5BWyhKiX6k70n9a+RbC3AsCQTRvSvNWqXlHsow==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2555,6 +2561,8 @@ snapshots:
       levn: 0.4.1
 
   '@fontsource-variable/roboto@5.2.5': {}
+
+  '@fontsource/lemon@5.2.5': {}
 
   '@humanfs/core@0.19.1': {}
 
