@@ -21,6 +21,9 @@ importers:
       '@eslint/js':
         specifier: ^9.18.0
         version: 9.21.0
+      '@iconify-json/fa-solid':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@iconify-json/mdi':
         specifier: ^1.2.3
         version: 1.2.3
@@ -523,6 +526,9 @@ packages:
   '@humanwhocodes/retry@0.4.2':
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/fa-solid@1.2.1':
+    resolution: {integrity: sha512-eEcnCb6yjRJ0bZrQQZOvO9P5PYCGujz2V8PpiIxBSlm6xqoVLNtOfUyPr6xZD4zWeW7H3cmWi2ZXSzqxQ5e4lw==}
 
   '@iconify-json/mdi@1.2.3':
     resolution: {integrity: sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==}
@@ -2576,6 +2582,10 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.2': {}
+
+  '@iconify-json/fa-solid@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/mdi@1.2.3':
     dependencies:
