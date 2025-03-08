@@ -3,5 +3,5 @@
 	import Worship from "../../../components/Main/Invitations/Worship.svelte";
 
 </script>
-<Worship />
+<!-- <Worship /> -->
 <SermonCards />
